@@ -1,5 +1,9 @@
+# wrangler scratchpad
+.wrangler
+
 # build output
 dist/
+
 # generated types
 .astro/
 
