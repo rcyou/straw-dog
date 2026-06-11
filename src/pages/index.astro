@@ -5,15 +5,16 @@ import BaseLayout from '../layouts/BaseLayout.astro'
 <BaseLayout
 	pageTitle="Parked Domain"
 	metaDescription="Built with Astro 6" >
-    <div class="relative flex max-w-3xl flex-col items-center text-center gap-5">
-	    <p class="text-xs md:text-base font-extrabold uppercase tracking-wider text-taupe-400">
-	    	This domain is claimed
-	    </p>
-	    <h1 class="text-balance text-6xl md:text-9xl font-bold text-gray-800">
-        	Stay Tuned!
+    <div class="relative flex flex-col gap-8 md:gap-20 w-full">
+	    <h1 class="w-full overflow-hidden">
+	    	<span class="heading-eyebrow relative z-1 block font-literata font-semibold italic text-3xl md:text-6xl leading-none tracking-normal text-blue-100 -mb-[2vw] md:-mb-4 px-4 md:px-8">Stay tuned &hellip;</span>
+        	<span class="tracking-tight inline-block font-z-expanded leading-[0.85] font-black text-[clamp(4.5rem,23.25vw,12rem)] -mx-3 text-blue-400">Coming<br>Soon</span>
     	</h1>
-		<p class="max-w-md text-xl md:text-3xl pt-1 md:pt-6 font-normal text-gray-600">
-			Something new is in the works.
-		</p>
+
+	    <p class="flex max-w-3xl flex-col gap-2 px-4 md:px-8 text-3xl md:text-4xl font-literata leading-[1.35] text-gray-950">
+	    	<span class="summary-eyebrow leading-none font-z-semiexpanded font-extrabold uppercase tracking-wider text-xs md:text-base text-yellow-200">Sorry, this domain is claimed</span>
+	    	But never fear.<br>
+	    	Something new is brewing here.
+	    </p>
     </div>
 </BaseLayout>

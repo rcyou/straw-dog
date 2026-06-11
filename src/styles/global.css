@@ -1,1 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-literata: "Literata", serif; 
+  --font-z-expanded: "Zalando Sans Expanded", sans-serif; 
+  --font-z-semiexpanded: "Zalando Sans SemiExpanded", sans-serif; 
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom, 
+    var(--color-blue-500) 40%,
+    var(--color-sky-500)
+  );
+}
