@@ -8,6 +8,7 @@ const { pageTitle, metaDescription, } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
 
@@ -23,8 +24,8 @@ const { pageTitle, metaDescription, } = Astro.props;
     <meta name="twitter:description" content={metaDescription} />
   </head>
   
-  <body class="font-sans  min-h-screen flex flex-col antialiased bg-blue-500">
-    <main id="main-content" role="main" class="relative grow-1 flex flex-col items-center py-16">
+  <body class="font-sans  min-h-screen flex flex-col antialiased bg-gray-50">
+    <main id="main-content" role="main" class="relative grow-1 flex flex-col items-center py-12">
       <slot /> 
     </main>
 
